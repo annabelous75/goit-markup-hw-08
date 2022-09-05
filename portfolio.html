@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+  <header class="header">
+        <div class="container header__nav">
+         <a href="./index.html" class="header__logo">
+                <span class="logo__span">Web</span><span class="logo__label">Studio</span></a>
+        <nav>
+        <ul class="syte-nav">
+            <li class="syte-nav__item"><a href="./index.html" class="syte-nav__link">Студия</a></li>
+            <li class="syte-nav__item"><a href="./portfolio.html"class="syte-nav__link syte-nav__link--current">Портфолио</a></li>
+            <li class="syte-nav__item"><a href=""class="syte-nav__link">Контакты</a></li>  
+        </ul>     
+        </nav>
+        <ul class="site-contacts">
+        <li class="site-contacts__item"><a href="mailto:info@devstudio.com" class="site-contacts__link"><svg class="site-contacts__icon"><use href="./img/symbol-defs.svg#icon-envelope-1"></use></svg>info@devstudio.com</a></li>
+        <li class="site-contacts__item">
+            <a href="tel:+380961111111" class="site-contacts__link">
+                <svg class="site-contacts__icon"><use href="./img/symbol-defs.svg#icon-smartphone-1"></use>
+                </svg>+38 096 111 11 11</a></li>
+        </ul>
+        </div>
+    </header> 
+    <main>
+      <section class="buttons section-padding">
+        <div class="container">
+          <ul class="button__list">
+            <li class="button__item">
+              <button type="button" class="button">Все</button>
+            </li>
+            <li class="button__item">
+              <button type="button" class="button">Веб-сайты</button>
+            </li>
+            <li class="button__item">
+              <button type="button" class="button">Приложения</button>
+            </li>
+            <li class="button__item">
+              <button type="button" class="button">Дизайн</button>
+            </li>
+            <li class="button__item">
+              <button type="button" class="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="card__set">
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/1work.jpg    1x,
+                    ./img/1work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/1work_tab.jpg   1x,
+                    ./img/1work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/1work_mob.jpg    1x,
+                    ./img/1work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/1work.jpg"
+                    alt="работа1"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content--tablet">
+                  <h3 class="card__name">Технокряк</h3>
+                  <p class="card__sub-title">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/2work.jpg    1x,
+                    ./img/2work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/2work_tab.jpg   1x,
+                    ./img/2work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/2work_mob.jpg    1x,
+                    ./img/2work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/2work.jpg"
+                    alt="работа2"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Постер New Orlean vs Golden Star</h3>
+                  <p class="card__sub-title">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/3work.jpg    1x,
+                    ./img/3work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/3work_tab.jpg   1x,
+                    ./img/3work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/3work_mob.jpg    1x,
+                    ./img/3work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/3work.jpg"
+                    alt="работа3"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Ресторан Seafood</h3>
+                  <p class="card__sub-title">Приложение</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/4work.jpg    1x,
+                    ./img/4work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/4work_tab.jpg   1x,
+                    ./img/4work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/4work_mob.jpg    1x,
+                    ./img/4work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/4work.jpg"
+                    alt="работа4"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Проект Prime</h3>
+                  <p class="card__sub-title">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/5work.jpg    1x,
+                    ./img/5work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/5work_tab.jpg   1x,
+                    ./img/5work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/5work_mob.jpg    1x,
+                    ./img/5work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/5work.jpg"
+                    alt="работа5"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Проект Boxes</h3>
+                  <p class="card__sub-title">Приложение</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/6work.jpg    1x,
+                    ./img/6work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/6work_tab.jpg   1x,
+                    ./img/6work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/6work_mob.jpg    1x,
+                    ./img/6work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/6work.jpg"
+                    alt="работа6"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Inspiration has no Borders</h3>
+                  <p class="card__sub-title">Веб-сайт</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/7work.jpg    1x,
+                    ./img/7work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/7work_tab.jpg   1x,
+                    ./img/7work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/7work_mob.jpg    1x,
+                    ./img/7work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/7work.jpg"
+                    alt="работа7"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Издание Limited Edition</h3>
+                  <p class="card__sub-title">Дизайн</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/8work.jpg    1x,
+                    ./img/8work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/8work_tab.jpg   1x,
+                    ./img/8work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/8work_mob.jpg    1x,
+                    ./img/8work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/8work.jpg"
+                    alt="работа8"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Проект LAB</h3>
+                  <p class="card__sub-title">Маркетинг</p>
+                </div>
+              </article>
+            </li>
+            <li class="card__item">
+              <article class="card__article">
+                <div class="card__thumb">
+                  <picture>
+                <source
+                  srcset="
+                    ./img/9work.jpg    1x,
+                    ./img/9work_desk_2x.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                  type="image/webp"
+                /> 
+                <source
+                  srcset="
+                    ./img/9work_tab.jpg   1x,
+                    ./img/9work_tab_2x.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./img/9work_mob.jpg    1x,
+                    ./img/9work_mob_2x.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                  <img
+                    src="./img/9work.jpg"
+                    alt="работа9"
+                    width="370"
+                    height="294"
+                  />
+                  <p class="card__text">
+                    Ресурс предлагает комплексные предложения с разным уровнем
+                    функционала и сервисов. Все это позволит посетителю получить
+                    исчерпывающие сведения о компании или частном лице.
+                  </p>
+                </div>
+                <div class="card__content">
+                  <h3 class="card__name">Growing Business</h3>
+                  <p class="card__sub-title">Приложение</p>
+                </div>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section> 
+    </main>
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <address class="footer__title">
+                    <div class="footer__logo">
+                        <a href="./index.html" class="footer__logo__link"><span class="footer__span">Web</span><span class="footer__label">Studio</span></a>
+                    </div>
+                <ul class="footer__list">
+                <li class="footer__item" style="margin-bottom: 9px;"><a href="" class="footer__link">г. Киев, пр-т Леси Украинки, 26</a><br></li>
+                <li class="footer__item" style="margin-bottom: 9px;"><a href="mailto:info@devstudio.com" class="footer__contact">info@devstudio.com</a><br></li>
+                <li class="footer__item"><a href="tel:+380961111111" class="footer__contact">+38 096 111 11 11</a></li>
+            </ul>
+            </address>
+            <div class="footer__soc-content">
+            <h3 class="footer__soc-title">Присоединяйтесь</h3>
+            <ul class="footer__soc-list">
+                <li class="footer__soc-item"><a href="" class="footer__soc-link"><svg class="footer__soc-icon"><use href="./img/symbol-defs.svg#icon-instagramfoot"></use></svg></a></li>
+                <li class="footer__soc-item"><a href="" class="footer__soc-link"><svg class="footer__soc-icon"><use href="./img/symbol-defs.svg#icon-twitter-1"></use></svg></a></li>
+                <li class="footer__soc-item"><a href="" class="footer__soc-link"><svg class="footer__soc-icon"><use href="./img/symbol-defs.svg#icon-facebook-1-1"></use></svg></a></li>
+                <li class="footer__soc-item"><a href="" class="footer__soc-link"><svg class="footer__soc-icon"><use href="./img/symbol-defs.svg#icon-linkedinfoot"></use></svg></a></li>
+            </ul>   
+            </div>
+            <ul class="subscribe">
+                <li class="subscribe__item">
+                    <label for="foot-comment" class="subscribe__label">Подпишитесь на рассылку</label>
+                <input name="comment-input" class ="subscribe__input" placeholder="E-mail" id="foot-comment"></input>
+                </li>
+                <li class="subscribe__item">
+                   <button type="submit" class="button footer">Подписаться<svg class="subscribe__icon"><use href="./img/symbol-defs.svg#icon-send"></use></svg></button>
+                </li>
+            </ul>
+            </div>
+        </div> 
+    </footer> 
+  </body>
+</html>

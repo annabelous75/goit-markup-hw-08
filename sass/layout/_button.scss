@@ -1,0 +1,160 @@
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--footer-text-color);
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-radius: 4px;
+  background: #f5f4fa;
+  border: 0;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-on-buttom;
+    background-color: $accent-text-color;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
+}
+.button__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+  justify-content: flex-start;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+    justify-content: center;
+    gap: 8px;
+  }
+
+  .button__item {
+    background: #ffffff;
+  }
+}
+.button.primary {
+  color: var(--accent-on-buttom);
+  background-color: var(--accent-text-color);
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  margin-top: 30px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus {
+    color: $accent-on-buttom;
+    background-color: $accent-text-color;
+    cursor: pointer;
+  }
+}
+.button.footer {
+  &:focus {
+    color: $accent-on-buttom;
+    background-color: $accent-text-color;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding-left: 29px;
+    padding-right: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 27px;
+  }
+}
+.button.form__submit {
+  &:focus {
+    color: $accent-on-buttom;
+    background-color: $accent-text-color;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-align: center;
+    letter-spacing: 0.06em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    margin-left: 85px;
+    margin-right: 85px;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 124px;
+    margin-right: 124px;
+  }
+}
+.modal__button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 412px;
+  margin-top: 8px;
+  &:hover,
+  &:focus {
+    .modal__icon {
+      fill: #2196f3;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 490px;
+    margin-right: 7px;
+  }
+}
+.modal__icon {
+  width: 11px;
+  height: 11px;
+  fill: black;
+}
