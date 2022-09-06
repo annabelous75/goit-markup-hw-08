@@ -615,6 +615,8 @@ address {
   padding-right: 55px;
   padding-top: 10px;
   padding-bottom: 10px;
+  margin-right: 85px;
+  margin-left: 85px;
   border: 0;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -867,8 +869,6 @@ address {
   margin-top: 20px;
   margin-bottom: 30px;
   justify-content: center;
-  margin-right: 5px;
-  margin-left: 9px;
 }
 .form__icon {
   position: absolute;
