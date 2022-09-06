@@ -3,6 +3,11 @@
     display: none;
   }
 }
+@media screen and (min-width: 480px) {
+  .tasks {
+    display: none;
+  }
+}
 @media screen and(min-width:768px) {
   .tasks {
     display: none;
