@@ -457,8 +457,7 @@ address {
   gap: 20px;
   margin-top: 64px;
 }
-
-.mob__menu__soc-item {
+.mob__menu__soc-list .mob__menu__soc-link {
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
@@ -478,8 +477,16 @@ address {
   padding-bottom: 200px;
   padding-right: auto;
 }
+@media screen and (min-width: 320px) {
+  .hero {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
+}
 @media screen and (min-width: 480px) {
   .hero {
+    padding-top: 120px;
+    padding-bottom: 200px;
     padding-right: auto;
     background-color: #2f303a;
     text-align: center;
@@ -504,8 +511,6 @@ address {
   }
 }
 .hero .hero__title {
-  margin-right: 150px;
-  margin-left: 150px;
   color: #ffffff;
   font-weight: 900;
   font-size: 44px;
@@ -517,6 +522,13 @@ address {
   max-width: 700px;
   margin-right: auto;
   margin-left: auto;
+}
+@media screen and (min-width: 320px) {
+  .hero .hero__title {
+    font-size: 25px;
+    line-height: 1.61;
+    font-weight: 900;
+  }
 }
 @media screen and (min-width: 480px) {
   .hero .hero__title {
@@ -661,6 +673,11 @@ address {
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
+  .tasks {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) {
   .tasks {
     display: none;
   }
