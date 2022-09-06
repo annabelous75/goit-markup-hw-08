@@ -262,14 +262,14 @@
   display: flex;
   gap: 20px;
   margin-top: 64px;
-}
-.mob__menu__soc-link {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 1.22;
-  letter-spacing: 0.02em;
+  .mob__menu__soc-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
 
-  color: #2196f3;
+    color: #2196f3;
+  }
 }
 .mob__menu__syte-nav__link.syte-nav__link--current {
   display: block;
