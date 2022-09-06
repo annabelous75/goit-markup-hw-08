@@ -888,13 +888,11 @@ input:focus .form__icon {
 .form__span {
   color: #2196f3;
   text-decoration: underline;
-  margin-left: 2px;
 }
 .form__checkbox-icon {
   display: inline-block;
   width: 16px;
   height: 15px;
-  margin-right: 9px;
   border: 2px solid black;
   border-radius: 2px;
 }

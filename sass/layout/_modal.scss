@@ -207,6 +207,9 @@ input:focus .form__icon {
   height: 15px;
   border: 2px solid black;
   border-radius: 2px;
+  @media screen and (min-width: 1200px) {
+    margin-right: 9px;
+  }
 }
 .form__input:hover,
 .form__input:focus {
