@@ -4,7 +4,13 @@
   padding-top: 200px;
   padding-bottom: 200px;
   padding-right: auto;
+  @media screen and (min-width: 320px) {
+    padding-top: 100px;
+    padding-bottom: 80px;
+  }
   @media screen and (min-width: 480px) {
+    padding-top: 120px;
+    padding-bottom: 200px;
     padding-right: auto;
     background-color: $footer-background-color;
     text-align: center;
@@ -24,8 +30,6 @@
     padding-right: auto;
   }
   .hero__title {
-    margin-right: 150px;
-    margin-left: 150px;
     color: $accent-on-buttom;
     font-weight: 900;
     font-size: 44px;
@@ -37,6 +41,11 @@
     max-width: 700px;
     margin-right: auto;
     margin-left: auto;
+    @media screen and (min-width: 320px) {
+      font-size: 25px;
+      line-height: 1.61;
+      font-weight: 900;
+    }
     @media screen and (min-width: 480px) {
       margin-right: auto;
       margin-left: auto;
