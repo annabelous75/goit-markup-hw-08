@@ -473,8 +473,6 @@ address {
 .hero {
   background-color: #2f303a;
   text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
   padding-right: auto;
 }
 @media screen and (min-width: 320px) {
@@ -512,23 +510,13 @@ address {
 }
 .hero .hero__title {
   color: #ffffff;
+  font-size: 25px;
+  line-height: 1.61;
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  max-width: 700px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media screen and (min-width: 320px) {
-  .hero .hero__title {
-    font-size: 25px;
-    line-height: 1.61;
-    font-weight: 900;
-  }
 }
 @media screen and (min-width: 480px) {
   .hero .hero__title {
@@ -541,8 +529,8 @@ address {
 }
 @media screen and (min-width: 768px) {
   .hero .hero__title {
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 185px;
+    margin-left: 185px;
     font-size: 26px;
     line-height: 1.61;
     letter-spacing: 0.06em;
